@@ -1,0 +1,10 @@
+# Promotional and social assets — not part of the book
+promo/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
