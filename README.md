@@ -1,5 +1,7 @@
 # Engineering Force Multipliers
 
+![Engineering Force Multipliers — a book, written in public](images/book-hero.png)
+
 > **Small improvements that make engineering teams dramatically more effective.**
 
 I'm writing this book as a collection of lessons I've learned throughout my career in software engineering, quality engineering, engineering operations, and now AI-assisted engineering.
