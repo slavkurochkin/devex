@@ -63,6 +63,18 @@ Each chapter focuses on one practical lesson. Most chapters will follow a simple
 
 ---
 
+## How This Book Is Written
+
+I'm writing this book with AI, though probably not in the way that phrase usually suggests. I'm not asking a model to generate chapters.
+
+Instead, I'm using AI to interview me. It asks questions about my past experience—what I built, what actually happened, what I'd do differently—and I answer. The questions surface details I would have skipped on my own: the constraints I'd forgotten, the reasoning behind a decision, the parts of a story that only look important once someone asks about them.
+
+I then take those answers and shape them into chapters. The experiences, opinions, and mistakes are mine. AI is the interviewer, not the author.
+
+It's a fitting method for a book about force multipliers. A small change in how I work—being asked good questions instead of staring at a blank page—turned out to be the difference between writing this and not writing it.
+
+---
+
 # Table of Contents
 
 ## Part I — Building Better Engineering Systems
