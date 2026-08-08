@@ -1,5 +1,7 @@
 # Chapter 1 — Don't Fall in Love With Your Framework
 
+![Chapter 1 — Don't Fall in Love With Your Framework](../images/chapter-1-hero.png)
+
 > I've built things. I've been wrong. I've defended things I shouldn't have defended. I've changed my mind. Here's what I learned.
 
 I had built the framework. I had made the architectural decisions, chosen the patterns, and spent time thinking about how the test suite should be structured. So when someone new joined the team and suggested doing things differently, my first reaction wasn't curiosity—it was resistance.
