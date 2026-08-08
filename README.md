@@ -89,7 +89,7 @@ Why the thing you built shouldn't become something you defend.
 
 Why some of the most valuable engineering tools are the ones nobody remembers to use.
 
-*Coming soon*
+[Read Chapter 2 →](Part%20I/Chapter%202.md)
 
 ### 3. Understand the Constraints
 
