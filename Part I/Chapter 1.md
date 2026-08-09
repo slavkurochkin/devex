@@ -141,6 +141,18 @@ The last question may be the most important. You should always know what evidenc
 
 ---
 
+## Further Reading
+
+- **"The IKEA Effect: When Labor Leads to Love"** (Norton, Mochon & Ariely) — the experiments behind the thing this chapter is actually about. People assign substantially more value to objects they assembled themselves, and they don't know they're doing it. It generalizes uncomfortably well to code.
+- **The Psychology of Computer Programming** (Gerald Weinberg) — the 1971 book that named egoless programming. Half a century later it's still the clearest treatment of what happens to a team when identity gets attached to code.
+- **"PageObject"** (Martin Fowler, martinfowler.com/bliki) — a short, careful description of the pattern I was defending, including what it's genuinely good for. Worth reading before deciding you've outgrown it.
+- **The Mythical Man-Month** (Fred Brooks) — for "plan to throw one away, you will anyhow." Then read his twentieth-anniversary chapter, where he argues that advice was wrong. Watching Brooks publicly change his mind about his own most-quoted line is its own lesson.
+- **Superforecasting** (Tetlock & Gardner) — on the discipline of knowing in advance what would change your mind, which is the last question in the list above and the hardest one to answer honestly.
+
+One caution, because this chapter leans hard in one direction: being willing to replace your work is not the same as being right to. Chesterton's fence—don't tear down a fence until you know why it was put there—is the necessary counterweight. The new engineer on my team wasn't guessing. She understood what the Page Objects were doing before she proposed something else, which is exactly why her argument was worth losing to. Chapter 3 is largely about that half of it.
+
+---
+
 ## The Takeaway
 
 Don't fall in love with your framework, and don't confuse familiarity with correctness. Understand the fundamentals and the constraints. Be willing to change your mind—and when someone comes along with a better idea, be willing to replace your own.
