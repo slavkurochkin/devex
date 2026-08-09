@@ -1,5 +1,7 @@
 # Chapter 2 — Silent Until It Matters
 
+![Chapter 2 — Silent Until It Matters](../images/chapter-2-hero.png)
+
 > I built a tool nobody used. For three months I thought that meant it had failed. It turned out I was measuring the wrong thing—including my own work.
 
 I built a frontend performance dashboard almost as a side experiment.

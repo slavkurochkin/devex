@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <style>
+      .sans { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- ink field -->
+  <rect x="0" y="0" width="1200" height="400" fill="#14161C"/>
+
+  <!-- accent field, slanted edge -->
+  <polygon points="742,0 1200,0 1200,400 682,400" fill="#FF5A36"/>
+
+  <!-- ── left: type ───────────────────────────────────────── -->
+  <text class="sans" x="80" y="118" fill="#FF5A36" font-size="19" font-weight="700" letter-spacing="7.5">CHAPTER TWO</text>
+
+  <text class="sans" x="80" y="190" fill="#F7F4EF" font-size="50" font-weight="700" letter-spacing="-0.8">Silent Until</text>
+  <text class="sans" x="80" y="246" fill="#F7F4EF" font-size="50" font-weight="700" letter-spacing="-0.8">It Matters</text>
+
+  <rect x="80" y="282" width="104" height="4" fill="#FF5A36"/>
+
+  <text class="sans" x="80" y="324" fill="#9AA1AE" font-size="18" font-weight="400">You build monitoring so people don&#8217;t have to.</text>
+
+  <!-- ── right: ninety quiet days, then a step ────────────── -->
+  <g>
+    <!-- baseline -->
+    <rect x="795" y="274" width="330" height="3" fill="#14161C" opacity="0.55"/>
+
+    <!-- where it would have stayed -->
+    <line x1="1016" y1="236" x2="1128" y2="236" stroke="#14161C" stroke-width="3"
+          stroke-dasharray="7 7" opacity="0.45"/>
+
+    <!-- the series -->
+    <polyline points="800,238 824,234 848,239 872,233 896,237 920,235 944,239 968,234 992,238 1016,236 1040,206 1064,184 1088,166 1112,150"
+              fill="none" stroke="#14161C" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- daily readings -->
+    <g fill="#14161C">
+      <circle cx="800" cy="238" r="4.5"/>
+      <circle cx="824" cy="234" r="4.5"/>
+      <circle cx="848" cy="239" r="4.5"/>
+      <circle cx="872" cy="233" r="4.5"/>
+      <circle cx="896" cy="237" r="4.5"/>
+      <circle cx="920" cy="235" r="4.5"/>
+      <circle cx="944" cy="239" r="4.5"/>
+      <circle cx="968" cy="234" r="4.5"/>
+      <circle cx="992" cy="238" r="4.5"/>
+      <circle cx="1016" cy="236" r="4.5"/>
+      <circle cx="1040" cy="206" r="4.5"/>
+      <circle cx="1064" cy="184" r="4.5"/>
+      <circle cx="1088" cy="166" r="4.5"/>
+    </g>
+
+    <!-- the day it mattered -->
+    <circle cx="1112" cy="150" r="12" fill="#14161C"/>
+    <circle cx="1112" cy="150" r="22" fill="none" stroke="#14161C" stroke-width="3" opacity="0.5"/>
+  </g>
+</svg>
