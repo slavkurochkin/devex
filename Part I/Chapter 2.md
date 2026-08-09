@@ -218,6 +218,44 @@ This also solves a softer problem. A tool that reports in occasionally, even jus
 
 ---
 
+## AI Changes the Equation
+
+There was a step I wanted at the time and didn't build, because it wasn't practical: after detecting a regression, say something useful about *why*.
+
+The detection half was also harder than it sounds. The obvious approach is a static threshold—alert if the performance score drops below 80—but that's precisely the wrong instrument for the problem this chapter is about. Gradual drift never crosses a line on any given day. Two percent a week is invisible to a threshold right up until it isn't, and by then you've lost the ability to say when it started. Writing something better meant hand-rolling statistics I wasn't going to maintain.
+
+Both halves are now cheap. A model can look at a series and characterize the shape of what changed—a step on a specific date versus a slow slope versus normal variance—without anyone tuning a threshold. And it can do the correlation I actually wanted:
+
+> "p75 LCP stepped up ~180ms on the 14th. Three dependency upgrades and one deploy landed that day. The most likely candidate is the charting library bump, which added 140KB to the main bundle."
+
+That's the difference between an alert that says *something is wrong* and one that says *start here*. The pipeline gains a step that used to be a human's whole afternoon:
+
+```text
+Detect regression
+      │
+      ▼
+Correlate with deploys,
+dependency changes, commits
+      │
+      ▼
+Slack alert with a hypothesis
+      │
+      ▼
+Engineer confirms or discards
+```
+
+Note the last box. It isn't decoration.
+
+A generated root cause is a hypothesis, not a finding, and it needs to be written that way in the alert. If you present a guess with the same confidence as a measurement, you get one of two outcomes: engineers chase a plausible wrong answer, or they learn the summaries are unreliable and stop reading them—which returns you to the "hope someone looks" pipeline, just with more machinery. The correlation is genuinely valuable. The confidence has to be honest.
+
+The second catch is one this chapter has already made unavoidable. **An AI agent watching your metrics is itself a silent tool.** It runs on a schedule, holds a credential, depends on an API that can rate-limit or change, and produces nothing visible when all is well. Everything in the previous section applies to it, with an extra failure mode: it can keep running and quietly get worse. A heartbeat proving the agent executed tells you nothing about whether its output still makes sense.
+
+And there's a volume problem worth naming. My dashboard was a side experiment because it took real effort. That cost is most of what limited how many such tools existed. Now an engineer can build one in an afternoon—so you won't have one quiet tool, you'll have fifteen, each with its own schedule, credential, and capacity to die unnoticed. Health checking stops being a nice-to-have on a single pipeline and becomes the thing that makes a fleet of them trustworthy.
+
+> **AI makes it cheap to build tools that watch. It doesn't make it cheap to trust them.**
+
+---
+
 ## What This Means for DevEx
 
 There's a pattern here that runs well beyond performance monitoring.
