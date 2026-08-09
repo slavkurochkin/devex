@@ -229,6 +229,29 @@ But there's a genuinely useful side, and it lands squarely on this chapter's arg
 
 That's the part worth leaning on. Not "write my tests," but *"walk this workflow through the codebase and tell me every service, queue, and external call it touches."* The output needs verifying, but it turns a multi-week archaeology project into something you can do before writing the first test — which is exactly when this chapter says you should be doing it.
 
+There's a second corpus worth reading, and most teams are sitting on it without touching it: a year of bugs and incidents in Jira or Linear.
+
+This chapter argues you should choose a test layer based on what you need to know. Your defect history is a record of what you needed to know and found out too late. With an MCP server connected to the tracker, a model can pull every escaped defect from the past year and work through them one at a time, asking the only question that matters for strategy: **which layer of test could have caught this before a customer did?**
+
+```text
+A year of bugs and incidents
+            │
+            ▼
+For each escaped defect:
+which layer could have caught it?
+            │
+            ▼
+Contract 38% · Integration 24%
+E2E 9% · Not preventable by tests 29%
+            │
+            ▼
+Where the next test belongs
+```
+
+Those numbers are made up, but the shape of the answer is the point. If most of what reaches production is two services disagreeing about a payload, the fix isn't a broader end-to-end suite — it's contract tests, and now you can say so with your own data instead of a blog post. If a quarter of your incidents are configuration and environment drift, no test layer is going to help and the effort belongs somewhere else entirely. This analysis was always possible. It was also a week of reading tickets, which is why nobody did it.
+
+Two cautions. Tracker data is a record of what was found and written down, not what happened — an area nobody tests thoroughly produces few bug reports, and that absence reads as health when it means you aren't looking. And the categorization is only as good as your ticket hygiene, which is usually worse than anyone wants to admit. Treat the output as a hypothesis to check against what you know, the same as any other generated answer.
+
 The same applies to failure triage. *"Is this a product defect or an environment problem?"* is a question teams answer by hand, badly, every day. It's pattern matching across failure history, and it's a reasonable thing to hand to a machine.
 
 > **AI makes tests cheap to write. It doesn't make them worth running.**
@@ -261,6 +284,7 @@ Before building an automation strategy for a new system, I'd work through these.
 - Could a lower-level test give faster feedback on the same question?
 - Which dependencies actually need to be real?
 - How will we tell a product defect from an environment problem?
+- What have our escaped defects actually been for the past year, and which layer could have caught them?
 
 **About the team**
 
