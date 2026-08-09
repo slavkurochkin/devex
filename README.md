@@ -25,6 +25,23 @@ This book is about those lessons—not large transformations or complicated ente
 
 ---
 
+## Start Here
+
+Three chapters are written so far. Each one stands alone, so start with whichever sounds most like your week.
+
+**[1 — Don't Fall in Love With Your Framework](Part%20I/Chapter%201.md)**
+A new engineer proposed replacing the test framework I'd built. My first reaction wasn't curiosity, it was resistance. She was right.
+
+**[2 — Silent Until It Matters](Part%20I/Chapter%202.md)**
+I built a performance dashboard nobody opened. For three months I thought it had failed. Then it caught a regression before anyone else did.
+
+**[3 — Understand the Constraints](Part%20I/Chapter%203.md)**
+I used to start test automation with the test. The architecture, the environments, and the data decide what a test can actually tell you.
+
+The full plan is in the [table of contents](#table-of-contents) below.
+
+---
+
 ## Why I'm Writing This
 
 Developer Experience is often discussed in terms of big platforms and large initiatives. But I think much of the impact comes from smaller improvements: a bot that saves a developer five minutes, a test that runs automatically instead of requiring someone to remember to run it, a dashboard that turns five data sources into one useful signal, a release process that removes ten Slack messages, or a framework that is simple enough that everyone can contribute to it.
@@ -45,21 +62,21 @@ I'm not writing this as a collection of universal truths. These are lessons I've
 
 ## What You'll Find Here
 
-Each chapter focuses on one practical lesson. Most chapters will follow a simple structure:
+Each chapter is one story and one lesson. A shape has emerged across the first few:
 
-**The Story** — What actually happened.
+**The story** — What actually happened, including the parts where I was wrong.
 
-**The Problem** — What we were trying to solve.
+**The engineering** — What was built, how it worked, and what it traded away. These are meant to be useful to someone building the same thing, not just read.
 
-**The Approach** — What we built or changed.
+**The lesson** — What I'd tell someone facing the same decision now.
 
-**The Lesson** — What I learned from it.
+**AI Changes the Equation** — What's different now that the cost of building has collapsed—and, more often, what hasn't changed at all.
 
-**The Trade-offs** — Where the approach works—and where it doesn't.
+**Questions to Ask** — A short list you can take into a team discussion. This is the part I'd most like people to actually use.
 
-**Try This** — Practical questions or ideas you can apply to your own organization.
+**Further Reading** — Where these ideas are treated more thoroughly by people who've thought about them longer.
 
-**Further Reading** — Books, research, talks, and other resources that provide additional context.
+Chapters don't follow this rigidly. Some stories need a different shape, and the structure will keep shifting as I write.
 
 ---
 
@@ -270,6 +287,11 @@ If you've tried something and it worked—or spectacularly didn't work—I want 
 
 ## Status
 
-🚧 **Work in progress**
+🚧 **Work in progress** — 3 of 22 chapters written.
 
-This book is being written chapter by chapter. The current version is intentionally incomplete—that's part of the experiment.
+**Done:** Chapters 1–3, all in Part I.
+**Next:** Chapter 4 — *Make the Right Thing Frictionless.*
+
+New chapters land regularly. **Watch** this repo if you want them as they're published—a star bookmarks it, but only watching will tell you when Chapter 12 shows up.
+
+The current version is intentionally incomplete—that's part of the experiment.
