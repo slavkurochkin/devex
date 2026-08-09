@@ -95,7 +95,7 @@ Why some of the most valuable engineering tools are the ones nobody remembers to
 
 Automation doesn't exist in a vacuum. Before automating something, understand why the system works the way it does.
 
-*Coming soon*
+[Read Chapter 3 →](Part%20I/Chapter%203.md)
 
 ### 4. Make the Right Thing Frictionless
 

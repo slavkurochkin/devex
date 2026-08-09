@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <style>
+      .sans { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- ink field -->
+  <rect x="0" y="0" width="1200" height="400" fill="#14161C"/>
+
+  <!-- accent field, slanted edge -->
+  <polygon points="742,0 1200,0 1200,400 682,400" fill="#FF5A36"/>
+
+  <!-- ── left: type ───────────────────────────────────────── -->
+  <text class="sans" x="80" y="118" fill="#FF5A36" font-size="19" font-weight="700" letter-spacing="7.5">CHAPTER THREE</text>
+
+  <text class="sans" x="80" y="190" fill="#F7F4EF" font-size="50" font-weight="700" letter-spacing="-0.8">Understand the</text>
+  <text class="sans" x="80" y="246" fill="#F7F4EF" font-size="50" font-weight="700" letter-spacing="-0.8">Constraints</text>
+
+  <rect x="80" y="282" width="104" height="4" fill="#FF5A36"/>
+
+  <text class="sans" x="80" y="324" fill="#9AA1AE" font-size="18" font-weight="400">Constraints aren&#8217;t obstacles. They&#8217;re information.</text>
+
+  <!-- ── right: the straight path vs the one that fits ────── -->
+  <g>
+    <!-- the naive path: straight through, absorbed by whatever is in the way -->
+    <line x1="800" y1="206" x2="1124" y2="206" stroke="#14161C" stroke-width="3"
+          stroke-dasharray="7 7" opacity="0.45"/>
+
+    <!-- the constraints: fixed, not going anywhere -->
+    <g fill="#14161C">
+      <rect x="880" y="140" width="28" height="70" rx="3"/>
+      <rect x="960" y="200" width="28" height="80" rx="3"/>
+      <rect x="1040" y="145" width="28" height="65" rx="3"/>
+    </g>
+
+    <!-- the path that threads them -->
+    <polyline points="800,206 894,240 974,166 1054,240 1124,206"
+              fill="none" stroke="#14161C" stroke-width="5"
+              stroke-linejoin="round" stroke-linecap="round"/>
+
+    <circle cx="800" cy="206" r="5" fill="#14161C"/>
+    <circle cx="1124" cy="206" r="10" fill="#14161C"/>
+  </g>
+</svg>
