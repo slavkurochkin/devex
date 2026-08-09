@@ -29,28 +29,43 @@ The approach worked. Tests were running in CI, the framework was being used, and
 
 A new engineer joined the team. Because we were already using TypeScript, she suggested using a more modular approach instead of Page Objects. Rather than creating Page Object classes, instantiating them, and then calling their methods, we could expose functionality through modules and import what we needed directly.
 
-Instead of:
+It's worth seeing both, because the whole disagreement fits in about twenty lines.
 
-```text
-Create Page Object
-       │
-       ▼
-Instantiate it
-       │
-       ▼
-Call methods
+A test in the framework I'd built:
+
+```ts
+import { LoginPage } from '../pages/LoginPage'
+import { DevicesPage } from '../pages/DevicesPage'
+
+const loginPage = new LoginPage()
+const devicesPage = new DevicesPage()
+
+it('shows the devices for an account', () => {
+  loginPage.visit()
+  loginPage.loginAs(ADMIN_EMAIL, ADMIN_PASSWORD)
+  devicesPage.open()
+  devicesPage.deviceRows().should('have.length', 3)
+})
 ```
 
-we could do:
+The same test, her way:
 
-```text
-Import module
-       │
-       ▼
-Call functionality
+```ts
+import { loginAs } from '../support/auth'
+import { openDevices, deviceRows } from '../support/devices'
+
+it('shows the devices for an account', () => {
+  loginAs(ADMIN_EMAIL, ADMIN_PASSWORD)
+  openDevices()
+  deviceRows().should('have.length', 3)
+})
 ```
 
-The new approach was simpler. There was less ceremony, and fewer things to understand before writing a test. Technically, her proposal wasn't revolutionary—but it challenged something that was harder for me to recognize at the time: I was attached to the framework I had built.
+Same behavior, same selectors underneath, same number of assertions. What disappears is the ceremony: two class imports become two function imports, the instantiation lines go away entirely, and every call loses its object prefix. Thirteen lines becomes eight.
+
+The part that mattered more than the line count was what a new engineer had to know before writing their first test. In the first version, you have to find out which Page Object owns the behavior you want, whether it's already instantiated somewhere, and whether to construct it at module scope or inside the test. In the second, you import a function that does the thing you want. Your editor's autocomplete is the documentation.
+
+Technically her proposal wasn't revolutionary. But it challenged something harder for me to recognize at the time: I was attached to the framework I had built.
 
 ## I Didn't Like It
 
@@ -81,6 +96,24 @@ Your job isn't to protect your framework. Your job is to make engineers more eff
 Or, even more simply:
 
 > **Your framework is not your identity.**
+
+---
+
+## Where Page Objects Earn It
+
+I've now spent two sections explaining why the simpler approach won, which risks leaving the impression that the pattern I picked was a mistake from the start. It wasn't. It was a reasonable choice that stopped being the best one for that team, and those are different things.
+
+Page Objects earn their ceremony in a few situations I'd still reach for them in.
+
+**When a page has real state.** If interacting with a screen means tracking a wizard step, a selected row, or a filter set that later assertions depend on, a class gives that state somewhere obvious to live. The module version handles this by passing state around explicitly, which gets noisy fast.
+
+**When the same abstraction has multiple implementations.** Testing the same flow against a desktop and mobile layout, or a legacy and rewritten version of a screen, is exactly what an interface with two implementations is for. Swapping a class is cleaner than threading a variant flag through a dozen functions.
+
+**When the team already thinks in objects.** This one is unglamorous and it's usually the deciding factor. If everyone writing tests came from Java or C#, Page Objects are the pattern they'll guess correctly without reading the docs. Familiarity is a legitimate engineering input, not a compromise.
+
+None of those described our situation. We had mostly stateless screens, one implementation, and a team already writing TypeScript modules everywhere else in the codebase. The pattern wasn't wrong in general. It was wrong *there*, and the reason I couldn't see it is the subject of this chapter.
+
+That's the harder version of the lesson. "I picked a bad pattern" would be easy to admit. "I picked a defensible pattern and then kept defending it after the context changed" is the mistake I actually made, and it's the one that repeats.
 
 ---
 
