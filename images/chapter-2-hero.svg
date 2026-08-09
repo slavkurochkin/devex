@@ -19,7 +19,8 @@
 
   <rect x="80" y="282" width="104" height="4" fill="#FF5A36"/>
 
-  <text class="sans" x="80" y="324" fill="#9AA1AE" font-size="18" font-weight="400">You build monitoring so people don&#8217;t have to.</text>
+  <text class="sans" x="80" y="318" fill="#9AA1AE" font-size="17" font-weight="400">You don&#8217;t build monitoring for people to stare at dashboards.</text>
+  <text class="sans" x="80" y="344" fill="#9AA1AE" font-size="17" font-weight="400">You build monitoring so they don&#8217;t have to.</text>
 
   <!-- ── right: ninety quiet days, then a step ────────────── -->
   <g>
