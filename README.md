@@ -142,25 +142,31 @@ A meeting is a tool, not a default. What changes when you decide what you want b
 
 *Coming soon*
 
-### 8. Don't Confuse Advocacy With Escalation
+### 8. Don't Show Everything You Know
+
+Knowing something isn't the job. Working out what the person in front of you actually needs to know is.
+
+*Coming soon*
+
+### 9. Don't Confuse Advocacy With Escalation
 
 How to push back when you believe your team is being treated unfairly—without turning advocacy into escalation.
 
 *Coming soon*
 
-### 9. Frameworks Should Belong to Everyone
+### 10. Frameworks Should Belong to Everyone
 
 A framework that only a few people understand isn't really a team framework.
 
 *Coming soon*
 
-### 10. Public Praise Is a Force Multiplier
+### 11. Public Praise Is a Force Multiplier
 
 Why recognizing people publicly can be more powerful than another process or meeting.
 
 *Coming soon*
 
-### 11. KISS Still Wins
+### 12. KISS Still Wins
 
 Complexity is one of the fastest ways to kill adoption of internal tooling.
 
@@ -170,25 +176,25 @@ Complexity is one of the fastest ways to kill adoption of internal tooling.
 
 ## Part III — Measuring Engineering Effectiveness
 
-### 12. Metrics Are Only Useful If You Can Trust Them
+### 13. Metrics Are Only Useful If You Can Trust Them
 
 What I learned building and automating DORA metrics across multiple data sources.
 
 *Coming soon*
 
-### 13. Every Team Thinks Their Problem Is the Most Important
+### 14. Every Team Thinks Their Problem Is the Most Important
 
 Why OKRs require alignment before execution.
 
 *Coming soon*
 
-### 14. Operational Excellence Is a Feedback Loop
+### 15. Operational Excellence Is a Feedback Loop
 
 How operational reviews can turn recurring problems into engineering improvements.
 
 *Coming soon*
 
-### 15. SLOs Make Problems Visible
+### 16. SLOs Make Problems Visible
 
 How good SLOs help teams identify problems before they become incidents.
 
@@ -198,25 +204,25 @@ How good SLOs help teams identify problems before they become incidents.
 
 ## Part IV — Quality Without the Friction
 
-### 16. Testing Should Start Earlier
+### 17. Testing Should Start Earlier
 
 Why test automation becomes less valuable the further away it gets from development.
 
 *Coming soon*
 
-### 17. Bug Bashes Are About Learning
+### 18. Bug Bashes Are About Learning
 
 How structured exploratory testing can uncover problems that automated tests miss.
 
 *Coming soon*
 
-### 18. RCA Is Only Useful If It Changes Something
+### 19. RCA Is Only Useful If It Changes Something
 
 Why postmortems shouldn't become documentation exercises.
 
 *Coming soon*
 
-### 19. The Bar Raiser
+### 20. The Bar Raiser
 
 Why reviewing an RCA before presenting it to the broader organization can dramatically improve the quality of learning.
 
@@ -226,27 +232,27 @@ Why reviewing an RCA before presenting it to the broader organization can dramat
 
 ## Part V — AI as an Engineering Force Multiplier
 
-### 20. Don't Build AI Just Because You Can
+### 21. Don't Build AI Just Because You Can
 
 *Coming soon*
 
-### 21. Small Bots Beat Giant Platforms
+### 22. Small Bots Beat Giant Platforms
 
 *Coming soon*
 
-### 22. Turn Your Engineering Systems Into Context
+### 23. Turn Your Engineering Systems Into Context
 
 Using information from GitHub, Linear, Slack, incidents, and other systems to understand how engineering work actually happens.
 
 *Coming soon*
 
-### 23. AI Can Find Where Time Is Being Lost
+### 24. AI Can Find Where Time Is Being Lost
 
 Using agentic workflows to analyze lead time and identify engineering bottlenecks.
 
 *Coming soon*
 
-### 24. AI Makes Fundamentals More Important
+### 25. AI Makes Fundamentals More Important
 
 Why AI changes the cost of implementation but doesn't eliminate the need for engineering judgment.
 
@@ -299,7 +305,7 @@ If you've tried something and it worked—or spectacularly didn't work—I want 
 
 ## Status
 
-🚧 **Work in progress** — 3 of 24 chapters written.
+🚧 **Work in progress** — 3 of 25 chapters written.
 
 **Done:** Chapters 1–3, all in Part I.
 **Next:** Chapter 4 — *Make the Right Thing Frictionless.*
