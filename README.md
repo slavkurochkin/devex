@@ -136,21 +136,33 @@ The transition from being the person who solves problems to enabling everyone el
 
 *Coming soon*
 
-### 7. Frameworks Should Belong to Everyone
+### 7. Never Go Into a Meeting Without an Outcome
+
+A meeting is a tool, not a default. What changes when you decide what you want before you walk in.
+
+*Coming soon*
+
+### 8. Don't Confuse Advocacy With Escalation
+
+How to push back when you believe your team is being treated unfairly—without turning advocacy into escalation.
+
+*Coming soon*
+
+### 9. Frameworks Should Belong to Everyone
 
 A framework that only a few people understand isn't really a team framework.
 
 *Coming soon*
 
-### 8. KISS Still Wins
+### 10. Public Praise Is a Force Multiplier
 
-Complexity is one of the fastest ways to kill adoption of internal tooling.
+Why recognizing people publicly can be more powerful than another process or meeting.
 
 *Coming soon*
 
-### 9. Public Praise Is a Force Multiplier
+### 11. KISS Still Wins
 
-Why recognizing people publicly can be more powerful than another process or meeting.
+Complexity is one of the fastest ways to kill adoption of internal tooling.
 
 *Coming soon*
 
@@ -158,25 +170,25 @@ Why recognizing people publicly can be more powerful than another process or mee
 
 ## Part III — Measuring Engineering Effectiveness
 
-### 10. Metrics Are Only Useful If You Can Trust Them
+### 12. Metrics Are Only Useful If You Can Trust Them
 
 What I learned building and automating DORA metrics across multiple data sources.
 
 *Coming soon*
 
-### 11. Every Team Thinks Their Problem Is the Most Important
+### 13. Every Team Thinks Their Problem Is the Most Important
 
 Why OKRs require alignment before execution.
 
 *Coming soon*
 
-### 12. Operational Excellence Is a Feedback Loop
+### 14. Operational Excellence Is a Feedback Loop
 
 How operational reviews can turn recurring problems into engineering improvements.
 
 *Coming soon*
 
-### 13. SLOs Make Problems Visible
+### 15. SLOs Make Problems Visible
 
 How good SLOs help teams identify problems before they become incidents.
 
@@ -186,25 +198,25 @@ How good SLOs help teams identify problems before they become incidents.
 
 ## Part IV — Quality Without the Friction
 
-### 14. Testing Should Start Earlier
+### 16. Testing Should Start Earlier
 
 Why test automation becomes less valuable the further away it gets from development.
 
 *Coming soon*
 
-### 15. Bug Bashes Are About Learning
+### 17. Bug Bashes Are About Learning
 
 How structured exploratory testing can uncover problems that automated tests miss.
 
 *Coming soon*
 
-### 16. RCA Is Only Useful If It Changes Something
+### 18. RCA Is Only Useful If It Changes Something
 
 Why postmortems shouldn't become documentation exercises.
 
 *Coming soon*
 
-### 17. The Bar Raiser
+### 19. The Bar Raiser
 
 Why reviewing an RCA before presenting it to the broader organization can dramatically improve the quality of learning.
 
@@ -214,27 +226,27 @@ Why reviewing an RCA before presenting it to the broader organization can dramat
 
 ## Part V — AI as an Engineering Force Multiplier
 
-### 18. Don't Build AI Just Because You Can
+### 20. Don't Build AI Just Because You Can
 
 *Coming soon*
 
-### 19. Small Bots Beat Giant Platforms
+### 21. Small Bots Beat Giant Platforms
 
 *Coming soon*
 
-### 20. Turn Your Engineering Systems Into Context
+### 22. Turn Your Engineering Systems Into Context
 
 Using information from GitHub, Linear, Slack, incidents, and other systems to understand how engineering work actually happens.
 
 *Coming soon*
 
-### 21. AI Can Find Where Time Is Being Lost
+### 23. AI Can Find Where Time Is Being Lost
 
 Using agentic workflows to analyze lead time and identify engineering bottlenecks.
 
 *Coming soon*
 
-### 22. AI Makes Fundamentals More Important
+### 24. AI Makes Fundamentals More Important
 
 Why AI changes the cost of implementation but doesn't eliminate the need for engineering judgment.
 
@@ -287,7 +299,7 @@ If you've tried something and it worked—or spectacularly didn't work—I want 
 
 ## Status
 
-🚧 **Work in progress** — 3 of 22 chapters written.
+🚧 **Work in progress** — 3 of 24 chapters written.
 
 **Done:** Chapters 1–3, all in Part I.
 **Next:** Chapter 4 — *Make the Right Thing Frictionless.*
