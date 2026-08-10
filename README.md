@@ -136,37 +136,13 @@ The transition from being the person who solves problems to enabling everyone el
 
 *Coming soon*
 
-### 7. Never Go Into a Meeting Without an Outcome
-
-A meeting is a tool, not a default. What changes when you decide what you want before you walk in.
-
-*Coming soon*
-
-### 8. Don't Show Everything You Know
-
-Knowing something isn't the job. Working out what the person in front of you actually needs to know is.
-
-*Coming soon*
-
-### 9. Don't Confuse Advocacy With Escalation
-
-How to push back when you believe your team is being treated unfairly—without turning advocacy into escalation.
-
-*Coming soon*
-
-### 10. Frameworks Should Belong to Everyone
+### 7. Frameworks Should Belong to Everyone
 
 A framework that only a few people understand isn't really a team framework.
 
 *Coming soon*
 
-### 11. Public Praise Is a Force Multiplier
-
-Why recognizing people publicly can be more powerful than another process or meeting.
-
-*Coming soon*
-
-### 12. KISS Still Wins
+### 8. KISS Still Wins
 
 Complexity is one of the fastest ways to kill adoption of internal tooling.
 
@@ -174,7 +150,35 @@ Complexity is one of the fastest ways to kill adoption of internal tooling.
 
 ---
 
-## Part III — Measuring Engineering Effectiveness
+## Part III — Communication Is an Engineering Skill
+
+### 9. Never Go Into a Meeting Without an Outcome
+
+A meeting is a tool, not a default. What changes when you decide what you want before you walk in.
+
+*Coming soon*
+
+### 10. Don't Show Everything You Know
+
+Knowing something isn't the job. Working out what the person in front of you actually needs to know is.
+
+*Coming soon*
+
+### 11. Don't Confuse Advocacy With Escalation
+
+How to push back when you believe your team is being treated unfairly—without turning advocacy into escalation.
+
+*Coming soon*
+
+### 12. Public Praise Is a Force Multiplier
+
+Why recognizing people publicly can be more powerful than another process or meeting.
+
+*Coming soon*
+
+---
+
+## Part IV — Measuring Engineering Effectiveness
 
 ### 13. Metrics Are Only Useful If You Can Trust Them
 
@@ -202,7 +206,7 @@ How good SLOs help teams identify problems before they become incidents.
 
 ---
 
-## Part IV — Quality Without the Friction
+## Part V — Quality Without the Friction
 
 ### 17. Testing Should Start Earlier
 
@@ -230,7 +234,7 @@ Why reviewing an RCA before presenting it to the broader organization can dramat
 
 ---
 
-## Part V — AI as an Engineering Force Multiplier
+## Part VI — AI as an Engineering Force Multiplier
 
 ### 21. Don't Build AI Just Because You Can
 
