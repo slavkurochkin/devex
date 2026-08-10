@@ -214,19 +214,25 @@ Why test automation becomes less valuable the further away it gets from developm
 
 *Coming soon*
 
-### 18. Bug Bashes Are About Learning
+### 18. A Passing Test Isn't Proof
+
+A test that passes is not evidence the behavior is correct. Where Chapter 3 asks which layer a test belongs at, this asks what the assertion actually proves.
+
+*Coming soon*
+
+### 19. Bug Bashes Are About Learning
 
 How structured exploratory testing can uncover problems that automated tests miss.
 
 *Coming soon*
 
-### 19. RCA Is Only Useful If It Changes Something
+### 20. RCA Is Only Useful If It Changes Something
 
 Why postmortems shouldn't become documentation exercises.
 
 *Coming soon*
 
-### 20. The Bar Raiser
+### 21. The Bar Raiser
 
 Why reviewing an RCA before presenting it to the broader organization can dramatically improve the quality of learning.
 
@@ -236,27 +242,27 @@ Why reviewing an RCA before presenting it to the broader organization can dramat
 
 ## Part VI — AI as an Engineering Force Multiplier
 
-### 21. Don't Build AI Just Because You Can
+### 22. Don't Build AI Just Because You Can
 
 *Coming soon*
 
-### 22. Small Bots Beat Giant Platforms
+### 23. Small Bots Beat Giant Platforms
 
 *Coming soon*
 
-### 23. Turn Your Engineering Systems Into Context
+### 24. Turn Your Engineering Systems Into Context
 
 Using information from GitHub, Linear, Slack, incidents, and other systems to understand how engineering work actually happens.
 
 *Coming soon*
 
-### 24. AI Can Find Where Time Is Being Lost
+### 25. AI Can Find Where Time Is Being Lost
 
 Using agentic workflows to analyze lead time and identify engineering bottlenecks.
 
 *Coming soon*
 
-### 25. AI Makes Fundamentals More Important
+### 26. AI Makes Fundamentals More Important
 
 Why AI changes the cost of implementation but doesn't eliminate the need for engineering judgment.
 
@@ -309,7 +315,7 @@ If you've tried something and it worked—or spectacularly didn't work—I want 
 
 ## Status
 
-🚧 **Work in progress** — 3 of 25 chapters written.
+🚧 **Work in progress** — 3 of 26 chapters written.
 
 **Done:** Chapters 1–3, all in Part I.
 **Next:** Chapter 4 — *Make the Right Thing Frictionless.*
