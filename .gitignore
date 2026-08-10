@@ -10,6 +10,5 @@ promo/
 *.swp
 /convo
 
-# Local Claude Code config and skills
-# Remove the settings line only if you decide to publish the book-writing skill
+# Local Claude Code config and skills — never published
 .claude/
