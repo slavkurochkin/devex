@@ -1,5 +1,7 @@
 # Small Thing — The Environment Reservation Bot
 
+![Small Thing — The Environment Reservation Bot](../images/small-thing-1.png)
+
 *Some improvements don't need a chapter.*
 
 ---

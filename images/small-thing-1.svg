@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
+  <defs>
+    <style>
+      .sans { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- ink field, no accent block — that slant belongs to chapters -->
+  <rect x="0" y="0" width="1200" height="240" fill="#14161C"/>
+
+  <!-- thin accent edge, the only structural mark -->
+  <rect x="0" y="0" width="8" height="240" fill="#FF5A36"/>
+
+  <!-- ── type ─────────────────────────────────────────────── -->
+  <text class="sans" x="80" y="86" fill="#FF5A36" font-size="15" font-weight="700" letter-spacing="6.5">SMALL THING</text>
+
+  <text class="sans" x="80" y="140" fill="#F7F4EF" font-size="36" font-weight="700" letter-spacing="-0.5">The Environment Reservation Bot</text>
+
+  <text class="sans" x="80" y="176" fill="#9AA1AE" font-size="15" font-weight="400">An afternoon of work.</text>
+
+  <!-- ── four environments, one taken ─────────────────────── -->
+  <g>
+    <rect x="920" y="100" width="40" height="40" rx="5" fill="#FF5A36"/>
+    <rect x="978" y="100" width="40" height="40" rx="5" fill="none" stroke="#FF5A36" stroke-width="3"/>
+    <rect x="1036" y="100" width="40" height="40" rx="5" fill="none" stroke="#FF5A36" stroke-width="3"/>
+    <rect x="1094" y="100" width="40" height="40" rx="5" fill="none" stroke="#FF5A36" stroke-width="3"/>
+  </g>
+</svg>
