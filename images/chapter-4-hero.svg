@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <style>
+      .sans { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- ink field -->
+  <rect x="0" y="0" width="1200" height="400" fill="#14161C"/>
+
+  <!-- accent field, slanted edge -->
+  <polygon points="742,0 1200,0 1200,400 682,400" fill="#FF5A36"/>
+
+  <!-- ── left: type ───────────────────────────────────────── -->
+  <text class="sans" x="80" y="118" fill="#FF5A36" font-size="19" font-weight="700" letter-spacing="7.5">CHAPTER FOUR</text>
+
+  <text class="sans" x="80" y="190" fill="#F7F4EF" font-size="50" font-weight="700" letter-spacing="-0.8">Make the Right Thing</text>
+  <text class="sans" x="80" y="246" fill="#F7F4EF" font-size="50" font-weight="700" letter-spacing="-0.8">Frictionless</text>
+
+  <rect x="80" y="282" width="104" height="4" fill="#FF5A36"/>
+
+  <text class="sans" x="80" y="324" fill="#9AA1AE" font-size="18" font-weight="400">It wasn't that developers didn't care. We'd made caring expensive.</text>
+
+  <!-- ── right: the crossing that stopped being necessary ─── -->
+  <g fill="#14161C">
+    <!-- before: two homes, a journey between them -->
+    <rect x="810" y="140" width="46" height="46" rx="4"/>
+    <rect x="1090" y="140" width="46" height="46" rx="4"/>
+    <line x1="864" y1="163" x2="1078" y2="163" stroke="#14161C" stroke-width="3"
+          stroke-dasharray="7 7" opacity="0.45"/>
+    <polygon points="1078,156 1090,163 1078,170" opacity="0.45"/>
+
+    <!-- after: same two things, no journey -->
+    <rect x="924" y="230" width="46" height="46" rx="4"/>
+    <rect x="976" y="230" width="46" height="46" rx="4"/>
+    <rect x="924" y="290" width="98" height="4" rx="2"/>
+  </g>
+</svg>

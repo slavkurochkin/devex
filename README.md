@@ -27,7 +27,7 @@ This book is about those lessons—not large transformations or complicated ente
 
 ## Start Here
 
-Three chapters are written so far. Each one stands alone, so start with whichever sounds most like your week.
+Four chapters are written so far. Each one stands alone, so start with whichever sounds most like your week.
 
 **[1 — Don't Fall in Love With Your Framework](Part%20I/Chapter%201.md)**
 A new engineer proposed replacing the test framework I'd built. My first reaction wasn't curiosity, it was resistance. She was right.
@@ -37,6 +37,9 @@ I built a performance dashboard nobody opened. For three months I thought it had
 
 **[3 — Understand the Constraints](Part%20I/Chapter%203.md)**
 I used to start test automation with the test. The architecture, the environments, and the data decide what a test can actually tell you.
+
+**[4 — Make the Right Thing Frictionless](Part%20I/Chapter%204.md)**
+Our tests lived in a separate repo, in a different language. Developers stopped contributing—not because they didn't care about quality, but because we'd made caring expensive.
 
 The full plan is in the [table of contents](#table-of-contents) below.
 
@@ -118,7 +121,7 @@ Automation doesn't exist in a vacuum. Before automating something, understand wh
 
 The best developer experience often means removing the need for developers to think about the process at all.
 
-*Coming soon*
+[Read Chapter 4 →](Part%20I/Chapter%204.md)
 
 ### 5. Build Enough to Learn
 
@@ -315,10 +318,10 @@ If you've tried something and it worked—or spectacularly didn't work—I want 
 
 ## Status
 
-🚧 **Work in progress** — 3 of 26 chapters written.
+🚧 **Work in progress** — 4 of 26 chapters written.
 
-**Done:** Chapters 1–3, all in Part I.
-**Next:** Chapter 4 — *Make the Right Thing Frictionless.*
+**Done:** Chapters 1–4, all in Part I.
+**Next:** Chapter 5 — *Build Enough to Learn.*
 
 New chapters land regularly. **Watch** this repo if you want them as they're published—a star bookmarks it, but only watching will tell you when Chapter 12 shows up.
 
