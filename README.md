@@ -27,7 +27,7 @@ This book is about those lessons—not large transformations or complicated ente
 
 ## Start Here
 
-Four chapters are written so far. Each one stands alone, so start with whichever sounds most like your week.
+Five chapters are written so far. Each one stands alone, so start with whichever sounds most like your week.
 
 **[1 — Don't Fall in Love With Your Framework](Part%20I/Chapter%201.md)**
 A new engineer proposed replacing the test framework I'd built. My first reaction wasn't curiosity, it was resistance. She was right.
@@ -40,6 +40,9 @@ I used to start test automation with the test. The architecture, the environment
 
 **[4 — Make the Right Thing Frictionless](Part%20I/Chapter%204.md)**
 Our tests lived in a separate repo, in a different language. Developers stopped contributing—not because they didn't care about quality, but because we'd made caring expensive.
+
+**[5 — Better Isn't a Reason](Part%20I/Chapter%205.md)**
+I published a comparison concluding Playwright beat Cypress on every dimension. My team stayed on Cypress. Then we took the suite from two hours to fifteen minutes without leaving.
 
 The full plan is in the [table of contents](#table-of-contents) below.
 
@@ -127,7 +130,7 @@ The best developer experience often means removing the need for developers to th
 
 A better tool isn't automatically worth switching to. Find out how much of the gap you can close where you already are.
 
-*Coming soon*
+[Read Chapter 5 →](Part%20I/Chapter%205.md)
 
 ---
 
@@ -318,10 +321,10 @@ If you've tried something and it worked—or spectacularly didn't work—I want 
 
 ## Status
 
-🚧 **Work in progress** — 4 of 26 chapters written.
+🚧 **Work in progress** — 5 of 26 chapters written.
 
-**Done:** Chapters 1–4, all in Part I.
-**Next:** Chapter 5 — *Better Isn't a Reason.*
+**Done:** Chapters 1–5. Part I is complete.
+**Next:** Chapter 6 — *You Can't Scale by Doing Everything Yourself.*
 
 New chapters land regularly. **Watch** this repo if you want them as they're published—a star bookmarks it, but only watching will tell you when Chapter 12 shows up.
 
