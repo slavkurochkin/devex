@@ -25,16 +25,16 @@
     <rect x="1022" y="150" width="13" height="26" rx="6"/>
     <rect x="1056" y="150" width="13" height="26" rx="6"/>
     <!-- floppy ear -->
-    <ellipse cx="1076" cy="88" rx="8" ry="17" transform="rotate(-30 1076 88)"/>
+    <ellipse cx="1072" cy="96" rx="10" ry="22" transform="rotate(-22 1072 96)"/>
     <!-- head -->
     <circle cx="1092" cy="100" r="23"/>
     <!-- snout -->
-    <rect x="1106" y="102" width="28" height="18" rx="9"/>
+    <rect x="1107" y="101" width="23" height="20" rx="10"/>
   </g>
 
   <!-- eye and nose, cut out of the dog -->
-  <circle cx="1094" cy="94" r="4" fill="#14161C"/>
-  <circle cx="1130" cy="109" r="4.5" fill="#14161C"/>
+  <circle cx="1097" cy="93" r="4.5" fill="#14161C"/>
+  <circle cx="1122" cy="107" r="4.5" fill="#14161C"/>
 
   <!-- ground -->
   <rect x="996" y="176" width="150" height="4" rx="2" fill="#FF5A36" opacity="0.45"/>
