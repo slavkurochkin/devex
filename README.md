@@ -123,9 +123,9 @@ The best developer experience often means removing the need for developers to th
 
 [Read Chapter 4 →](Part%20I/Chapter%204.md)
 
-### 5. Build Enough to Learn
+### 5. Better Isn't a Reason
 
-Don't build the architecture for the company you might have five years from now.
+A better tool isn't automatically worth switching to. Find out how much of the gap you can close where you already are.
 
 *Coming soon*
 
@@ -321,7 +321,7 @@ If you've tried something and it worked—or spectacularly didn't work—I want 
 🚧 **Work in progress** — 4 of 26 chapters written.
 
 **Done:** Chapters 1–4, all in Part I.
-**Next:** Chapter 5 — *Build Enough to Learn.*
+**Next:** Chapter 5 — *Better Isn't a Reason.*
 
 New chapters land regularly. **Watch** this repo if you want them as they're published—a star bookmarks it, but only watching will tell you when Chapter 12 shows up.
 
