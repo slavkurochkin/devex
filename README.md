@@ -116,6 +116,12 @@ Why some of the most valuable engineering tools are the ones nobody remembers to
 
 [Read Chapter 2 →](Part%20I/Chapter%202.md)
 
+### Small Thing — zdog
+
+A Chrome extension that gathered scattered test-user chores into one place, with an animated dog that was thrilled to see you. I was laid off shortly after finishing it.
+
+[Read it →](Part%20I/Small%20Thing%202.md)
+
 ### 3. Understand the Constraints
 
 Automation doesn't exist in a vacuum. Before automating something, understand why the system works the way it does.
