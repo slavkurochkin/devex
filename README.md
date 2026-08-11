@@ -44,6 +44,8 @@ Our tests lived in a separate repo, in a different language. Developers stopped 
 **[5 — Better Isn't a Reason](Part%20I/Chapter%205.md)**
 I published a comparison concluding Playwright beat Cypress on every dimension. My team stayed on Cypress. Then we took the suite from two hours to fifteen minutes without leaving.
 
+Alongside the chapters there are **Small Things** — two-page write-ups of one concrete improvement each. What the problem was, what got built, what changed, and when it isn't worth doing.
+
 The full plan is in the [table of contents](#table-of-contents) below.
 
 ---
@@ -125,6 +127,12 @@ Automation doesn't exist in a vacuum. Before automating something, understand wh
 The best developer experience often means removing the need for developers to think about the process at all.
 
 [Read Chapter 4 →](Part%20I/Chapter%204.md)
+
+### Small Thing — The Environment Reservation Bot
+
+Shared environments, a dozen "is anyone using staging?" messages a day, and an afternoon of work that ended them.
+
+[Read it →](Part%20I/Small%20Thing%201.md)
 
 ### 5. Better Isn't a Reason
 
