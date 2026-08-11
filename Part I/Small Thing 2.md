@@ -28,9 +28,11 @@ So I was the only person who ever used it. A small, enthusiastic dog, waiting at
 
 The uncomfortable part is that the build was the easy half. Getting other people to install it, telling them it existed, finding out whether it actually fit how they worked — that's the half that turns a tool into a force multiplier, and it's the half I never started. One person using one tool is a preference. The multiplication is other people.
 
-**When this doesn't apply.** Building something only you will use is fine — plenty of good tools start as one person's private convenience and spread later because someone saw it over a shoulder. The mistake isn't building for yourself. It's assuming that spreading happens on its own, and treating the last ten percent as somebody else's problem.
+**When this doesn't apply.** Building something only you will use is fine — plenty of good tools start as one person's private convenience and spread later because someone saw it over a shoulder. The mistake isn't building for yourself. It's assuming the spreading happens by itself.
 
-Sometimes you don't get the last ten percent. Sometimes the timing decides for you.
+It doesn't. Telling people the thing exists, getting it installed, and finding out whether it fits how they actually work is separate work, and finishing the code doesn't start it.
+
+Sometimes you don't get to that part. Sometimes the timing decides for you.
 
 ---
 
