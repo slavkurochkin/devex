@@ -27,7 +27,7 @@ This book is about those lessons—not large transformations or complicated ente
 
 ## Start Here
 
-Five chapters are written so far. Each one stands alone, so start with whichever sounds most like your week.
+Five chapters and two Small Things are written so far. Each one stands alone, so start with whichever sounds most like your week.
 
 **[1 — Don't Fall in Love With Your Framework](Part%20I/Chapter%201.md)**
 A new engineer proposed replacing the test framework I'd built. My first reaction wasn't curiosity, it was resistance. She was right.
@@ -44,7 +44,13 @@ Our tests lived in a separate repo, in a different language. Developers stopped 
 **[5 — Better Isn't a Reason](Part%20I/Chapter%205.md)**
 I published a comparison concluding Playwright beat Cypress on every dimension. My team stayed on Cypress. Then we took the suite from two hours to fifteen minutes without leaving.
 
-Alongside the chapters there are **Small Things** — two-page write-ups of one concrete improvement each. What the problem was, what got built, what changed, and when it isn't worth doing.
+**Small Things** are shorter — two pages on one concrete improvement each. What the problem was, what got built, what changed, and when it isn't worth doing.
+
+**[zdog](Part%20I/Small%20Thing%202.md)**
+A Chrome extension that gathered scattered test-user chores into one place, with an animated dog that was thrilled to see you. Nobody else ever installed it.
+
+**[The Environment Reservation Bot](Part%20I/Small%20Thing%201.md)**
+Shared environments, a dozen "is anyone using staging?" messages a day, and an afternoon of work that ended them.
 
 The full plan is in the [table of contents](#table-of-contents) below.
 
