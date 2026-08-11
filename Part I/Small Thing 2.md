@@ -16,7 +16,7 @@ It also had a dog. An animated one, and every time you opened the extension it w
 
 That wasn't only a joke. Internal tooling is relentlessly joyless — grey panels built by people who had a ticket to close. A tool you enjoy opening gets opened, and for a tool whose entire value depends on being opened, that isn't decoration. It's the feature.
 
-**What happened.** I was laid off not long after I finished it.
+**What happened.** Not long after I finished it, I was affected by a company-wide reduction in force.
 
 So I was the only person who ever used it. A small, enthusiastic dog, waiting at the door of an extension nobody else installed. It became Hachikō.
 

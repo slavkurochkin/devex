@@ -118,7 +118,7 @@ Why some of the most valuable engineering tools are the ones nobody remembers to
 
 ### Small Thing — zdog
 
-A Chrome extension that gathered scattered test-user chores into one place, with an animated dog that was thrilled to see you. I was laid off shortly after finishing it.
+A Chrome extension that gathered scattered test-user chores into one place, with an animated dog that was thrilled to see you. I was affected by a reduction in force shortly after finishing it.
 
 [Read it →](Part%20I/Small%20Thing%202.md)
 
