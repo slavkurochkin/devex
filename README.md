@@ -128,7 +128,7 @@ The best developer experience often means removing the need for developers to th
 
 ### 5. Better Isn't a Reason
 
-A better tool isn't automatically worth switching to. Find out how much of the gap you can close where you already are.
+Why a better tool isn't automatically worth switching to, and how much of the distance you can usually close without going anywhere.
 
 [Read Chapter 5 →](Part%20I/Chapter%205.md)
 
