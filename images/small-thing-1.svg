@@ -5,24 +5,37 @@
     </style>
   </defs>
 
-  <!-- ink field, no accent block — that slant belongs to chapters -->
   <rect x="0" y="0" width="1200" height="240" fill="#14161C"/>
-
-  <!-- thin accent edge, the only structural mark -->
   <rect x="0" y="0" width="8" height="240" fill="#FF5A36"/>
 
   <!-- ── type ─────────────────────────────────────────────── -->
   <text class="sans" x="80" y="86" fill="#FF5A36" font-size="15" font-weight="700" letter-spacing="6.5">SMALL THING</text>
 
-  <text class="sans" x="80" y="140" fill="#F7F4EF" font-size="36" font-weight="700" letter-spacing="-0.5">The Environment Reservation Bot</text>
+  <text class="sans" x="80" y="140" fill="#F7F4EF" font-size="36" font-weight="700" letter-spacing="-0.5">zdog</text>
 
-  <text class="sans" x="80" y="176" fill="#9AA1AE" font-size="15" font-weight="400">The question that stopped getting asked.</text>
+  <text class="sans" x="80" y="176" fill="#9AA1AE" font-size="15" font-weight="400">I was the only person who ever used it.</text>
 
-  <!-- ── four environments, one taken ─────────────────────── -->
-  <g>
-    <rect x="920" y="100" width="40" height="40" rx="5" fill="#FF5A36"/>
-    <rect x="978" y="100" width="40" height="40" rx="5" fill="none" stroke="#FF5A36" stroke-width="3"/>
-    <rect x="1036" y="100" width="40" height="40" rx="5" fill="none" stroke="#FF5A36" stroke-width="3"/>
-    <rect x="1094" y="100" width="40" height="40" rx="5" fill="none" stroke="#FF5A36" stroke-width="3"/>
+  <!-- ── a dog, waiting ───────────────────────────────────── -->
+  <g fill="#FF5A36">
+    <!-- tail -->
+    <path d="M1014,120 Q994,104 1002,82" fill="none" stroke="#FF5A36" stroke-width="7" stroke-linecap="round"/>
+    <!-- body -->
+    <rect x="1010" y="110" width="68" height="50" rx="24"/>
+    <!-- legs -->
+    <rect x="1022" y="150" width="13" height="26" rx="6"/>
+    <rect x="1056" y="150" width="13" height="26" rx="6"/>
+    <!-- floppy ear -->
+    <ellipse cx="1072" cy="96" rx="10" ry="22" transform="rotate(-22 1072 96)"/>
+    <!-- head -->
+    <circle cx="1092" cy="100" r="23"/>
+    <!-- snout -->
+    <rect x="1107" y="101" width="23" height="20" rx="10"/>
   </g>
+
+  <!-- eye and nose, cut out of the dog -->
+  <circle cx="1097" cy="93" r="4.5" fill="#14161C"/>
+  <circle cx="1122" cy="107" r="4.5" fill="#14161C"/>
+
+  <!-- ground -->
+  <rect x="996" y="176" width="150" height="4" rx="2" fill="#FF5A36" opacity="0.45"/>
 </svg>

@@ -46,10 +46,10 @@ I published a comparison concluding Playwright beat Cypress on every dimension. 
 
 **Small Things** are shorter — two pages on one concrete improvement each. What the problem was, what got built, what changed, and when it isn't worth doing.
 
-**[zdog](Part%20I/Small%20Thing%202.md)**
+**[zdog](Part%20I/Small%20Thing%201.md)**
 A Chrome extension that gathered scattered test-user chores into one place, with an animated dog that was thrilled to see you. Nobody else ever installed it.
 
-**[The Environment Reservation Bot](Part%20I/Small%20Thing%201.md)**
+**[The Environment Reservation Bot](Part%20I/Small%20Thing%202.md)**
 Shared environments, a dozen "is anyone using staging?" messages a day, and an afternoon of work that ended them.
 
 The full plan is in the [table of contents](#table-of-contents) below.
@@ -126,7 +126,7 @@ Why some of the most valuable engineering tools are the ones nobody remembers to
 
 A Chrome extension that gathered scattered test-user chores into one place, with an animated dog that was thrilled to see you. I was affected by a reduction in force shortly after finishing it.
 
-[Read it →](Part%20I/Small%20Thing%202.md)
+[Read it →](Part%20I/Small%20Thing%201.md)
 
 ### 3. Understand the Constraints
 
@@ -144,7 +144,7 @@ The best developer experience often means removing the need for developers to th
 
 Shared environments, a dozen "is anyone using staging?" messages a day, and an afternoon of work that ended them.
 
-[Read it →](Part%20I/Small%20Thing%201.md)
+[Read it →](Part%20I/Small%20Thing%202.md)
 
 ### 5. Better Isn't a Reason
 
