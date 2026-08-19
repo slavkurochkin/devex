@@ -72,8 +72,6 @@ Not "delegate it and check in." Actually slow down. Sit with someone while they 
 
 That's a hard thing to do while leadership is asking when the tests will be faster. The honest cost isn't just the extra days. It's that you spend them looking less effective than you would have looked doing it yourself, and you have to be willing to look that way.
 
-But the point was never to avoid being a bottleneck. That's the framing you land on when you're annoyed at yourself, and it makes the whole thing sound defensive — as though the goal is to protect your calendar. The actual goal is the engineer in front of you. They wanted to solve this and couldn't, and the reason was something I could hand over. Spending the week is how they get to be someone who solves it, this time and the next four times, without waiting for me.
-
 ---
 
 ## Documentation and Pairing
@@ -166,8 +164,6 @@ The sentence is true. Two days if you do it, a week if you explain it. Every tim
 
 It's just answering a question about this week, and you are not running a team for a week.
 
-The suite I could have fixed in two days was never the point.
+The suite I could have fixed in two days was never the point. The point was whether the next slow suite, and the one after that, would also come to me — and the only way to change that answer was to spend a week I didn't want to spend.
 
-What the week actually bought wasn't a faster test suite, and it wasn't a lighter calendar for me either. It was engineers who wrote their own tests, debugged their own failures, and eventually made calls about that suite I wouldn't have made — some of them better than mine. That's not a consolation prize for giving up control. It's a better outcome than anything I could have shipped in two days, and it's the part of the job I'd have missed entirely by being efficient.
-
-> **I stopped measuring myself by what I could fix, and started measuring by what my team could fix without me.**
+> **Being the fastest person to solve a problem is a good way to make sure you're always the one solving it.**
