@@ -45,7 +45,7 @@ Our tests lived in a separate repo, in a different language. Developers stopped 
 I published a comparison concluding Playwright beat Cypress on every dimension. My team stayed on Cypress. Then we took the suite from two hours to fifteen minutes without leaving.
 
 **[6 — You Can't Scale by Doing Everything Yourself](Part%20II/Chapter%206.md)**
-Two days if I did it, a week if I explained it. The arithmetic was right every single time — and it was how I'd made myself the only person who could do it.
+Two days if I did it, a week if I explained it — and the arithmetic was right every time. Spending the week anyway is how the team ended up writing their own tests.
 
 **Small Things** are shorter — two pages on one concrete improvement each. What the problem was, what got built, what changed, and when it isn't worth doing.
 
