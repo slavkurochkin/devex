@@ -27,7 +27,7 @@ This book is about those lessons—not large transformations or complicated ente
 
 ## Start Here
 
-Five chapters and two Small Things are written so far. Each one stands alone, so start with whichever sounds most like your week.
+Six chapters and two Small Things are written so far. Each one stands alone, so start with whichever sounds most like your week.
 
 **[1 — Don't Fall in Love With Your Framework](Part%20I/Chapter%201.md)**
 A new engineer proposed replacing the test framework I'd built. My first reaction wasn't curiosity, it was resistance. She was right.
@@ -43,6 +43,9 @@ Our tests lived in a separate repo, in a different language. Developers stopped 
 
 **[5 — Better Isn't a Reason](Part%20I/Chapter%205.md)**
 I published a comparison concluding Playwright beat Cypress on every dimension. My team stayed on Cypress. Then we took the suite from two hours to fifteen minutes without leaving.
+
+**[6 — You Can't Scale by Doing Everything Yourself](Part%20II/Chapter%206.md)**
+Two days if I did it, a week if I explained it. The arithmetic was right every single time, which is exactly how you become the only person who can do the thing.
 
 **Small Things** are shorter — two pages on one concrete improvement each. What the problem was, what got built, what changed, and when it isn't worth doing.
 
@@ -160,7 +163,7 @@ Why a better tool isn't automatically worth switching to, and how much of the di
 
 The transition from being the person who solves problems to enabling everyone else to solve them.
 
-*Coming soon*
+[Read Chapter 6 →](Part%20II/Chapter%206.md)
 
 ### 7. Frameworks Should Belong to Everyone
 
@@ -341,10 +344,10 @@ If you've tried something and it worked—or spectacularly didn't work—I want 
 
 ## Status
 
-🚧 **Work in progress** — 5 of 26 chapters written.
+🚧 **Work in progress** — 6 of 26 chapters written.
 
-**Done:** Chapters 1–5. Part I is complete.
-**Next:** Chapter 6 — *You Can't Scale by Doing Everything Yourself.*
+**Done:** Chapters 1–6. Part I complete, Part II started.
+**Next:** Chapter 7 — *Frameworks Should Belong to Everyone.*
 
 New chapters land regularly. **Watch** this repo if you want them as they're published—a star bookmarks it, but only watching will tell you when Chapter 12 shows up.
 
