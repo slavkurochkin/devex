@@ -27,7 +27,7 @@ This book is about those lessons—not large transformations or complicated ente
 
 ## Start Here
 
-Six chapters and two Small Things are written so far. Each one stands alone, so start with whichever sounds most like your week.
+Seven chapters and two Small Things are written so far. Each one stands alone, so start with whichever sounds most like your week.
 
 **[1 — Don't Fall in Love With Your Framework](Part%20I/Chapter%201.md)**
 A new engineer proposed replacing the test framework I'd built. My first reaction wasn't curiosity, it was resistance. She was right.
@@ -46,6 +46,9 @@ I published a comparison concluding Playwright beat Cypress on every dimension. 
 
 **[6 — You Can't Scale by Doing Everything Yourself](Part%20II/Chapter%206.md)**
 Two days if I did it, a week if I explained it. Every engineer has said this. It's true, and it's a trap.
+
+**[7 — Shift Left Is a People Problem](Part%20II/Chapter%207.md)**
+Developers said the tests were flaky. Managers said it would slow us down. QA asked what happened to them. All three were right.
 
 **Small Things** are shorter — two pages on one concrete improvement each. What the problem was, what got built, what changed, and when it isn't worth doing.
 
@@ -165,11 +168,11 @@ The transition from being the person who solves problems to enabling everyone el
 
 [Read Chapter 6 →](Part%20II/Chapter%206.md)
 
-### 7. Frameworks Should Belong to Everyone
+### 7. Shift Left Is a People Problem
 
-A framework that only a few people understand isn't really a team framework.
+Everyone agrees testing should happen earlier. Three groups have specific, correct reasons not to want it.
 
-*Coming soon*
+[Read Chapter 7 →](Part%20II/Chapter%207.md)
 
 ### 8. KISS Still Wins
 
@@ -344,10 +347,10 @@ If you've tried something and it worked—or spectacularly didn't work—I want 
 
 ## Status
 
-🚧 **Work in progress** — 6 of 26 chapters written.
+🚧 **Work in progress** — 7 of 26 chapters written.
 
-**Done:** Chapters 1–6. Part I complete, Part II started.
-**Next:** Chapter 7 — *Frameworks Should Belong to Everyone.*
+**Done:** Chapters 1–7. Part I complete, Part II underway.
+**Next:** Chapter 8 — *KISS Still Wins.*
 
 New chapters land regularly. **Watch** this repo if you want them as they're published—a star bookmarks it, but only watching will tell you when Chapter 12 shows up.
 

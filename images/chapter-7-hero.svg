@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <style>
+      .sans { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="400" fill="#14161C"/>
+  <polygon points="742,0 1200,0 1200,400 682,400" fill="#FF5A36"/>
+
+  <!-- ── left: type ───────────────────────────────────────── -->
+  <text class="sans" x="80" y="118" fill="#FF5A36" font-size="19" font-weight="700" letter-spacing="7.5">CHAPTER SEVEN</text>
+
+  <text class="sans" x="80" y="190" fill="#F7F4EF" font-size="50" font-weight="700" letter-spacing="-0.8">Shift Left Is a</text>
+  <text class="sans" x="80" y="246" fill="#F7F4EF" font-size="50" font-weight="700" letter-spacing="-0.8">People Problem</text>
+
+  <rect x="80" y="282" width="104" height="4" fill="#FF5A36"/>
+
+  <text class="sans" x="80" y="324" fill="#9AA1AE" font-size="18" font-weight="400">All three of them had a point.</text>
+
+  <!-- ── right: the direction of travel, and who is standing in it ── -->
+  <g fill="#14161C">
+    <!-- shift left -->
+    <line x1="1150" y1="146" x2="856" y2="146" stroke="#14161C" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="856,130 828,146 856,162"/>
+
+    <!-- three people -->
+    <circle cx="890" cy="212" r="16"/>
+    <rect x="878" y="234" width="24" height="52" rx="12"/>
+
+    <circle cx="990" cy="212" r="16"/>
+    <rect x="978" y="234" width="24" height="52" rx="12"/>
+
+    <circle cx="1090" cy="212" r="16"/>
+    <rect x="1078" y="234" width="24" height="52" rx="12"/>
+
+    <!-- ground -->
+    <rect x="836" y="290" width="308" height="5" rx="2" opacity="0.45"/>
+  </g>
+</svg>
