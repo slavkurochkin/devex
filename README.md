@@ -27,7 +27,7 @@ This book is about those lessons—not large transformations or complicated ente
 
 ## Start Here
 
-Seven chapters and two Small Things are written so far. Each one stands alone, so start with whichever sounds most like your week.
+Eight chapters and two Small Things are written so far. Each one stands alone, so start with whichever sounds most like your week.
 
 **[1 — Don't Fall in Love With Your Framework](Part%20I/Chapter%201.md)**
 A new engineer proposed replacing the test framework I'd built. My first reaction wasn't curiosity, it was resistance. She was right.
@@ -49,6 +49,9 @@ Two days if I did it, a week if I explained it. Every engineer has said this. It
 
 **[7 — Shift Left Is a People Problem](Part%20II/Chapter%207.md)**
 Developers said the tests were flaky. Managers said it would slow us down. QA asked what happened to them. All three were right.
+
+**[8 — Completeness Isn't Clarity](Part%20II/Chapter%208.md)**
+A dashboard with everything on it, presented to a room that couldn't read it. The fix wasn't a better explanation. It was four numbers.
 
 **Small Things** are shorter — two pages on one concrete improvement each. What the problem was, what got built, what changed, and when it isn't worth doing.
 
@@ -174,11 +177,11 @@ Everyone agrees testing should happen earlier. Three groups have specific, corre
 
 [Read Chapter 7 →](Part%20II/Chapter%207.md)
 
-### 8. KISS Still Wins
+### 8. Completeness Isn't Clarity
 
-Complexity is one of the fastest ways to kill adoption of internal tooling.
+I put every quality metric we had on one dashboard. Leadership read all of it and understood none of it.
 
-*Coming soon*
+[Read Chapter 8 →](Part%20II/Chapter%208.md)
 
 ---
 
@@ -347,10 +350,10 @@ If you've tried something and it worked—or spectacularly didn't work—I want 
 
 ## Status
 
-🚧 **Work in progress** — 7 of 26 chapters written.
+🚧 **Work in progress** — 8 of 26 chapters written.
 
-**Done:** Chapters 1–7. Part I complete, Part II underway.
-**Next:** Chapter 8 — *KISS Still Wins.*
+**Done:** Chapters 1–8. Parts I and II complete.
+**Next:** Chapter 9 — *Never Go Into a Meeting Without an Outcome*, opening Part III.
 
 New chapters land regularly. **Watch** this repo if you want them as they're published—a star bookmarks it, but only watching will tell you when Chapter 12 shows up.
 
